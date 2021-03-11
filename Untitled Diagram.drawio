@@ -1,11 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2021-03-11T20:24:31.447Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="oanSVx2gEbdi6PmsbWkX" version="14.4.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-11T20:46:12.222Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.82 Safari/537.36" etag="gxbXX2tos13kmADvOLua" version="14.4.7" type="github">
   <diagram name="Page-1" id="2ca16b54-16f6-2749-3443-fa8db7711227">
-    <mxGraphModel dx="946" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="634" dy="819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Zela_tOo512jKEwCodki-1" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="320" width="120" height="80" as="geometry" />
+        <mxCell id="Zela_tOo512jKEwCodki-7" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Zela_tOo512jKEwCodki-10" target="Zela_tOo512jKEwCodki-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="562.5" y="330" as="sourcePoint" />
+            <mxPoint x="580" y="249" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-8" value="" style="endArrow=classic;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.932;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zela_tOo512jKEwCodki-10" target="Zela_tOo512jKEwCodki-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="454.2750000000001" y="305.28999999999996" as="sourcePoint" />
+            <mxPoint x="480" y="177" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-9" value="" style="endArrow=classic;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.082;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Zela_tOo512jKEwCodki-10" target="Zela_tOo512jKEwCodki-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="340" as="sourcePoint" />
+            <mxPoint x="680" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-10" value="User &lt;font style=&quot;font-size: 8px&quot;&gt;Class&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-11" value="Image &lt;font style=&quot;font-size: 8px&quot;&gt;Class&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-12" value="Videos &lt;font style=&quot;font-size: 8px&quot;&gt;Class&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-14" value="Yogis &lt;font style=&quot;font-size: 8px&quot;&gt;Class&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-16" value="View Images&lt;br&gt;Add + Images&lt;br&gt;Like ❤️Image" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="343.75" y="320" width="172.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-17" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Zela_tOo512jKEwCodki-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="240" as="sourcePoint" />
+            <mxPoint x="426" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-18" value="View random YouTube Video of Kriya Yoga" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="493.75" y="425" width="172.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-19" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="Zela_tOo512jKEwCodki-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="579.5" y="300" as="sourcePoint" />
+            <mxPoint x="579.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-20" value="Add + Name to DB&lt;br&gt;Add + Email to DB" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="653.75" y="320" width="172.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-21" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="Zela_tOo512jKEwCodki-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="739.5" y="240" as="sourcePoint" />
+            <mxPoint x="739.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Zela_tOo512jKEwCodki-22" value="&lt;font color=&quot;#808080&quot; style=&quot;font-size: 10px&quot;&gt;Heather Haas&lt;br&gt;Kriya Yoga SPA APP&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="140" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
