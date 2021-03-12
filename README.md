@@ -11,4 +11,4 @@ As a student of Spirtual Enlightenment, she can move on to the next chapter with
 * A user is able to view & select from a list of YouTube videos of Kriya Yoga 
 
 * A list of Kriya Adopters
-# kirya
+# kriya
