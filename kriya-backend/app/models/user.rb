@@ -5,4 +5,8 @@ class User < ApplicationRecord
      validates_uniqueness_of :email
      
      before_save { self.email = email.downcase }
+     
+     has_many :images
+     has_many :items, through: :images
+     
 end
