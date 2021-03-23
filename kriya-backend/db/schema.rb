@@ -17,10 +17,7 @@ ActiveRecord::Schema.define(version: 2021_03_22_204440) do
 
   create_table "images", force: :cascade do |t|
     t.string "name"
-  end
-
-  create_table "items", force: :cascade do |t|
-    t.string "name"
+    t.string "url"
   end
 
   create_table "users", force: :cascade do |t|
@@ -32,6 +29,7 @@ ActiveRecord::Schema.define(version: 2021_03_22_204440) do
 
   create_table "videos", force: :cascade do |t|
     t.string "name"
+    t.string "url"
   end
 
 end

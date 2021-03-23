@@ -7843,3 +7843,930 @@ Migrating to Videos (20210322204440)
   ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Started GET "/" for ::1 at 2021-03-23 10:41:58 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for ::1 at 2021-03-23 10:41:58 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  
+actionpack (5.2.4.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/login" for ::1 at 2021-03-23 10:42:00 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/stylesheets/application.css" for ::1 at 2021-03-23 10:42:00 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  
+actionpack (5.2.4.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/stylesheets/application.css" for ::1 at 2021-03-23 10:42:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  
+actionpack (5.2.4.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/signup" for ::1 at 2021-03-23 10:42:04 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 27ms (Views: 10.9ms | ActiveRecord: 5.2ms)
+
+
+Started GET "/stylesheets/application.css" for ::1 at 2021-03-23 10:42:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  
+actionpack (5.2.4.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/stylesheets/application.css" for ::1 at 2021-03-23 10:42:06 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/stylesheets/application.css"):
+  
+actionpack (5.2.4.5) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.4.5) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.4.5) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.4.5) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.4.5) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.4.5) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (5.2.4.5) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-03-23 10:43:01 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 10:43:09 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-03-23 10:43:12 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for ::1 at 2021-03-23 10:43:16 -0400
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 32ms (Views: 12.0ms | ActiveRecord: 3.4ms)
+
+
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (78.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "kriya-backend_development"[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (31.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "kriya-backend_test"[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (142.7ms)[0m  [1m[35mCREATE DATABASE "kriya-backend_development" ENCODING = 'unicode'[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (75.7ms)[0m  [1m[35mCREATE DATABASE "kriya-backend_test" ENCODING = 'unicode'[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (24.2ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2404261330113649335)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Users (20210318180917)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (10.8ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "password_digest" character varying)[0m
+  ↳ db/migrate/20210318180917_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (2.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210318180917"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to AddIndexToUsersEmail (20210318181037)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (2.2ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  ↳ db/migrate/20210318181037_add_index_to_users_email.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210318181037"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Images (20210322202249)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE TABLE "images" ("id" bigserial primary key, "name" character varying)[0m
+  ↳ db/migrate/20210322202249_images.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322202249"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Items (20210322202330)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (8.3ms)[0m  [1m[35mCREATE TABLE "items" ("id" bigserial primary key, "name" character varying)[0m
+  ↳ db/migrate/20210322202330_items.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322202330"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Videos (20210322204440)
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (4.4ms)[0m  [1m[35mCREATE TABLE "videos" ("id" bigserial primary key, "name" character varying, "url" character varying)[0m
+  ↳ db/migrate/20210322204440_videos.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322204440"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (2.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-03-23 15:59:44.170244"], ["updated_at", "2021-03-23 15:59:44.170244"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(2404261330113649335)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mVideo Create (1.7ms)[0m  [1m[32mINSERT INTO "videos" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Kriya Video"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("url") VALUES ($1) RETURNING "id"[0m  [["url", "https://www.youtube.com/watch?v=fNWj6vEnq0M\n"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("name") VALUES ($1) RETURNING "id"[0m  [["name", "Kriya"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("url") VALUES ($1) RETURNING "id"[0m  [["url", "https://www.youtube.com/watch?v=fNWj6vEnq0M\n"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya"], ["url", "https://www.youtube.com/watch?v=fNWj6vEnq0M\n"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (27.9ms)[0m  [1m[35mDROP DATABASE IF EXISTS "kriya-backend_development"[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (22.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "kriya-backend_test"[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (136.6ms)[0m  [1m[35mCREATE DATABASE "kriya-backend_development" ENCODING = 'unicode'[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (59.5ms)[0m  [1m[35mCREATE DATABASE "kriya-backend_test" ENCODING = 'unicode'[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2404261330113649335)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Users (20210318180917)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "password_digest" character varying)[0m
+  ↳ db/migrate/20210318180917_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210318180917"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to AddIndexToUsersEmail (20210318181037)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  ↳ db/migrate/20210318181037_add_index_to_users_email.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210318181037"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Images (20210322202249)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (2.6ms)[0m  [1m[35mCREATE TABLE "images" ("id" bigserial primary key, "name" character varying)[0m
+  ↳ db/migrate/20210322202249_images.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322202249"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Items (20210322202330)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "items" ("id" bigserial primary key, "name" character varying)[0m
+  ↳ db/migrate/20210322202330_items.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322202330"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Videos (20210322204440)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (6.5ms)[0m  [1m[35mCREATE TABLE "videos" ("id" bigserial primary key, "name" character varying, "url" character varying)[0m
+  ↳ db/migrate/20210322204440_videos.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322204440"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-03-23 16:10:16.161567"], ["updated_at", "2021-03-23 16:10:16.161567"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(2404261330113649335)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mVideo Create (0.8ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya"], ["url", "https://www.youtube.com/watch?v=fNWj6vEnq0M"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya 2"], ["url", "https://www.youtube.com/watch?v=QdzXTBHLVzM"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:8
+  [1m[36mVideo Create (0.4ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya"], ["url", "https://www.youtube.com/watch?v=fNWj6vEnq0M"]]
+  ↳ db/seeds.rb:8
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:8
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya 2"], ["url", "https://www.youtube.com/watch?v=QdzXTBHLVzM"]]
+  ↳ db/seeds.rb:9
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya 3"], ["url", "https://www.youtube.com/watch?v=-KlnttF6jB8"]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:11
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya 4"], ["url", "https://www.youtube.com/watch?v=Wo4Kird8ryg"]]
+  ↳ db/seeds.rb:11
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:11
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya 5"], ["url", "https://www.youtube.com/watch?v=u3QMlLg0wA8"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (29.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "kriya-backend_development"[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (24.4ms)[0m  [1m[35mDROP DATABASE IF EXISTS "kriya-backend_test"[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (54.2ms)[0m  [1m[35mCREATE DATABASE "kriya-backend_development" ENCODING = 'unicode'[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (66.6ms)[0m  [1m[35mCREATE DATABASE "kriya-backend_test" ENCODING = 'unicode'[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (7.4ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2404261330113649335)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Users (20210318180917)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "password_digest" character varying)[0m
+  ↳ db/migrate/20210318180917_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210318180917"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to AddIndexToUsersEmail (20210318181037)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  ↳ db/migrate/20210318181037_add_index_to_users_email.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210318181037"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Images (20210322202249)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "images" ("id" bigserial primary key, "name" character varying)[0m
+  ↳ db/migrate/20210322202249_images.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322202249"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Items (20210322202330)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (2.9ms)[0m  [1m[35mCREATE TABLE "items" ("id" bigserial primary key, "name" character varying)[0m
+  ↳ db/migrate/20210322202330_items.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322202330"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Videos (20210322204440)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "videos" ("id" bigserial primary key, "name" character varying, "url" character varying)[0m
+  ↳ db/migrate/20210322204440_videos.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322204440"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (1.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-03-23 16:24:54.229229"], ["updated_at", "2021-03-23 16:24:54.229229"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(2404261330113649335)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (53.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "kriya-backend_development"[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (38.6ms)[0m  [1m[35mDROP DATABASE IF EXISTS "kriya-backend_test"[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (130.8ms)[0m  [1m[35mCREATE DATABASE "kriya-backend_development" ENCODING = 'unicode'[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (53.5ms)[0m  [1m[35mCREATE DATABASE "kriya-backend_test" ENCODING = 'unicode'[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (5.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (2.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(2404261330113649335)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Users (20210318180917)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (6.3ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "name" character varying, "email" character varying, "password_digest" character varying)[0m
+  ↳ db/migrate/20210318180917_users.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210318180917"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to AddIndexToUsersEmail (20210318181037)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.9ms)[0m  [1m[35mCREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")[0m
+  ↳ db/migrate/20210318181037_add_index_to_users_email.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210318181037"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Images (20210322202249)
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (7.1ms)[0m  [1m[35mCREATE TABLE "images" ("id" bigserial primary key, "name" character varying, "url" character varying)[0m
+  ↳ db/migrate/20210322202249_images.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322202249"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+Migrating to Videos (20210322204440)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "videos" ("id" bigserial primary key, "name" character varying, "url" character varying)[0m
+  ↳ db/migrate/20210322204440_videos.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20210322204440"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-03-23 17:35:57.077869"], ["updated_at", "2021-03-23 17:35:57.077869"]]
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(2404261330113649335)[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/bin/rake:23
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:9
+  [1m[36mUser Exists (0.9ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "osxgirl@mac.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "osxgirl@mac.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:9
+  [1m[35m (3.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:9
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:10
+  [1m[36mUser Exists (0.4ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "heather@petalsnap.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[36mUser Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "heather@petalsnap.com"], ["LIMIT", 1]]
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ db/seeds.rb:10
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:12
+  [1m[36mVideo Create (0.6ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya"], ["url", "https://www.youtube.com/watch?v=fNWj6vEnq0M"]]
+  ↳ db/seeds.rb:12
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:12
+  [1m[35m (2.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:13
+  [1m[36mVideo Create (0.3ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya 2"], ["url", "https://www.youtube.com/watch?v=QdzXTBHLVzM"]]
+  ↳ db/seeds.rb:13
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:13
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:14
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya 3"], ["url", "https://www.youtube.com/watch?v=-KlnttF6jB8"]]
+  ↳ db/seeds.rb:14
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:14
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:15
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya 4"], ["url", "https://www.youtube.com/watch?v=Wo4Kird8ryg"]]
+  ↳ db/seeds.rb:15
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:15
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:16
+  [1m[36mVideo Create (0.2ms)[0m  [1m[32mINSERT INTO "videos" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Kriya 5"], ["url", "https://www.youtube.com/watch?v=u3QMlLg0wA8"]]
+  ↳ db/seeds.rb:16
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:16
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:18
+  [1m[36mImage Create (0.6ms)[0m  [1m[32mINSERT INTO "images" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Babaji"], ["url", "https://ibb.co/Q7BjDVc"]]
+  ↳ db/seeds.rb:18
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:18
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:19
+  [1m[36mImage Create (0.2ms)[0m  [1m[32mINSERT INTO "images" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Lahiri"], ["url", "https://ibb.co/Ph24h1q"]]
+  ↳ db/seeds.rb:19
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:19
+  [1m[35m (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:20
+  [1m[36mImage Create (0.2ms)[0m  [1m[32mINSERT INTO "images" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Jesus"], ["url", "https://ibb.co/MZf5ZN8"]]
+  ↳ db/seeds.rb:20
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:20
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:21
+  [1m[36mImage Create (0.2ms)[0m  [1m[32mINSERT INTO "images" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Yukteswar"], ["url", "https://ibb.co/8gcf0Ty"]]
+  ↳ db/seeds.rb:21
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:21
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ db/seeds.rb:22
+  [1m[36mImage Create (0.2ms)[0m  [1m[32mINSERT INTO "images" ("name", "url") VALUES ($1, $2) RETURNING "id"[0m  [["name", "Paramahansa"], ["url", "https://ibb.co/TbhcqXH"]]
+  ↳ db/seeds.rb:22
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ db/seeds.rb:22
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT  "users".* FROM "users" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" LIMIT $1[0m  [["LIMIT", 11]]
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT  "images".* FROM "images" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/" for ::1 at 2021-03-23 13:38:44 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-03-23 13:38:46 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 7ms (Views: 5.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for ::1 at 2021-03-23 13:38:49 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8+4GHRYpk3hdrrK0rwhStXEshqxMO0G+Z3aQu6K7BiFrNcqwjqSPIqMD2Pu1UaD/WRjnvi1ucQLKwIEwxF3myw==", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 3.7ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:38:56 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 3ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:38:56 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-03-23 13:38:58 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for ::1 at 2021-03-23 13:38:59 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u1l908FNTaH9XGBaPCfI0iDJ2ceWJTxqOMwjKnGuzFETPAFdBLkomvdc0icU7M8bwHh+TeU3WmMtdFxUAUd3OQ==", "email"=>"", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", ""], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:00 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:00 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:02 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:02 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:03 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:03 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:03 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:03 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:03 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:03 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:03 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:03 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:03 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:03 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:04 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:04 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:04 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:04 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:04 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 1ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:04 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/logout" for ::1 at 2021-03-23 13:39:04 -0400
+Processing by SessionsController#destroy as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."id" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:9
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for ::1 at 2021-03-23 13:39:04 -0400
+Processing by WelcomeController#home as HTML
+  Rendering welcome/home.html.erb within layouts/application
+  Rendered welcome/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/login" for ::1 at 2021-03-23 13:39:05 -0400
+Processing by SessionsController#new as HTML
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/sessions" for ::1 at 2021-03-23 13:39:12 -0400
+Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jxVZFBPz+yC9C5V4+l4LMduyklfidW0pDcZdaIKVc12MPgS/gc0DQbdZs6v5FKy+FEvlpe1Ao2HTczAZS1fwxg==", "email"=>"osxgirl@mac.com", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT  "users".* FROM "users" WHERE "users"."email" = $1 LIMIT $2[0m  [["email", "osxgirl@mac.com"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:11
+  Rendering users/show.html.erb within layouts/application
+  Rendered users/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.3ms)
+
+
