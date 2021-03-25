@@ -10,4 +10,10 @@ class ApplicationController < ActionController::Base
         @current_user = nil
       end
     end
+    
+    def test
+      render json: { test: "success" }
+    end
+    
+    
 end
