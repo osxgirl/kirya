@@ -8,6 +8,8 @@ Rails.application.routes.draw do
    get '/index', to: 'images#index'
    get '/show', to: 'images#show'
    
+   get '/images' => 'images#index'
+   
    
    
    get 'signup', to: 'users#new', as: 'signup'
