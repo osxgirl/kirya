@@ -1,4 +1,5 @@
-class ImageSerializer
-  include FastJsonapi::ObjectSerializer
-  attributes :id, :url
+class ImageSerializer < ActiveModel::Serializer
+    attributes :id, :name, :url
+    
+   
 end

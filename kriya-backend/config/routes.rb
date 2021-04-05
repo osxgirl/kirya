@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
    root to: 'welcome#home'
    resources :users
+   resources :images
    resources :sessions, only: [:new, :create, :destroy]
    
    get '/test', to: 'application#test'
@@ -9,7 +10,6 @@ Rails.application.routes.draw do
    get '/show', to: 'images#show'
    
    get '/images' => 'images#index'
-   
    
    
    get 'signup', to: 'users#new', as: 'signup'
