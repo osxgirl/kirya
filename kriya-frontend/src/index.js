@@ -1,13 +1,13 @@
-console.log("testing...")
+console.log("connected")
 // test that we can get data from the backend
 const BACKEND_URL = 'http://localhost:3000';
-fetch(`${BACKEND_URL}/test`)
-  .then(response => response.json())
-  .then(parsedResponse => console.log(parsedResponse));
+//fetch(`${BACKEND_URL}/test`)
+//  .then(response => response.json())
+//  .then(parsedResponse => console.log(parsedResponse));
 
-fetch(`${BACKEND_URL}/index`)
-  .then(response => response.json())
-  .then(parsedResponse => console.log(parsedResponse));
+//fetch(`${BACKEND_URL}/index`)
+//  .then(response => response.json())
+//  .then(parsedResponse => console.log(parsedResponse));
 
 //images
 function fetchImages() {
@@ -24,6 +24,20 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.appendChild(p);
 
 });
+
+
+//videos
+function fetchVideos() {
+  return fetch(`${BACKEND_URL}/videos`)
+    .then(response => response.json())
+};
+document.addEventListener('DOMContentLoaded', () => {
+  fetchVideos()
+    .then(results => console.log(results));
+    
+});
+
+
 
 //space people
 fetch('http://api.open-notify.org/astros.json')

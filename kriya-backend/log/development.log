@@ -16236,3 +16236,83 @@ Processing by ImagesController#index as */*
 Completed 200 OK in 27ms (Views: 3.1ms | ActiveRecord: 11.9ms)
 
 
+Started GET "/images" for ::1 at 2021-04-11 18:50:18 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (0.7ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 23ms (Views: 9.6ms | ActiveRecord: 5.4ms)
+
+
+  [1m[36mVideo Load (1.9ms)[0m  [1m[34mSELECT  "videos".* FROM "videos" LIMIT $1[0m  [["LIMIT", 11]]
+Started GET "/images" for ::1 at 2021-04-11 21:44:03 -0400
+Started GET "/videos" for ::1 at 2021-04-11 21:44:03 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+  
+Processing by ImagesController#index as */*
+SyntaxError (/Users/heather/Development/code/kriya/kriya-backend/app/controllers/videos_controller.rb:24: syntax error, unexpected ')', expecting ']'
+...on: @video.to_json(only: [:url)
+...                              ^
+/Users/heather/Development/code/kriya/kriya-backend/app/controllers/videos_controller.rb:35: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/videos_controller.rb:24: syntax error, unexpected ')', expecting ']'
+app/controllers/videos_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 47ms (Views: 8.4ms | ActiveRecord: 5.5ms)
+
+
+Started GET "/images" for ::1 at 2021-04-11 21:44:53 -0400
+Started GET "/videos" for ::1 at 2021-04-11 21:44:53 -0400
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (0.2ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 12ms (Views: 3.6ms | ActiveRecord: 3.5ms)
+
+
+  
+SyntaxError (/Users/heather/Development/code/kriya/kriya-backend/app/controllers/videos_controller.rb:24: syntax error, unexpected ')', expecting ']'
+...on: @video.to_json(only: [:url)
+...                              ^
+/Users/heather/Development/code/kriya/kriya-backend/app/controllers/videos_controller.rb:35: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/videos_controller.rb:24: syntax error, unexpected ')', expecting ']'
+app/controllers/videos_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+Started GET "/videos" for ::1 at 2021-04-11 21:45:23 -0400
+Started GET "/images" for ::1 at 2021-04-11 21:45:23 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/Users/heather/Development/code/kriya/kriya-backend/app/controllers/videos_controller.rb:24: syntax error, unexpected ')', expecting ']'
+...on: @video.to_json(only: [:url)
+...                              ^
+/Users/heather/Development/code/kriya/kriya-backend/app/controllers/videos_controller.rb:35: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/videos_controller.rb:24: syntax error, unexpected ')', expecting ']'
+app/controllers/videos_controller.rb:35: syntax error, unexpected end-of-input, expecting end
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 22ms (Views: 7.4ms | ActiveRecord: 6.3ms)
+
+
+Started GET "/videos" for ::1 at 2021-04-11 21:46:41 -0400
+Started GET "/images" for ::1 at 2021-04-11 21:46:41 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  [1m[36mImage Load (0.8ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 17ms (Views: 5.2ms | ActiveRecord: 6.2ms)
+
+
+Completed 200 OK in 18ms (Views: 7.9ms | ActiveRecord: 2.9ms)
+
+
