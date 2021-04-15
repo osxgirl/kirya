@@ -1,32 +1,21 @@
 console.log("connected")
-// test that we can get data from the backend
+
 const BACKEND_URL = 'http://localhost:3000';
-//fetch(`${BACKEND_URL}/test`)
-//  .then(response => response.json())
-//  .then(parsedResponse => console.log(parsedResponse));
-
-//fetch(`${BACKEND_URL}/index`)
-//  .then(response => response.json())
-//  .then(parsedResponse => console.log(parsedResponse));
-
 //images
 function fetchImages() {
   return fetch(`${BACKEND_URL}/images`)
     .then(response => response.json())
 };
+
 document.addEventListener('DOMContentLoaded', () => {
   fetchImages()
     .then(results => console.log(results));
     
     var p = document.createElement('p');
     p.innerHTML = 'Babaji • Lahiri • Jesus • Yukteswar • Paramahansa';
-//    image.style.backgroundColor = '#f9f9f9';
     document.body.appendChild(p);
-
 });
 
-
-//videos
 function fetchVideos() {
   return fetch(`${BACKEND_URL}/videos`)
     .then(response => response.json())
@@ -37,9 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
     
 });
 
-
-
-//space people
 fetch('http://api.open-notify.org/astros.json')
 .then(function(response) {
   return response.json();
@@ -49,3 +35,21 @@ fetch('http://api.open-notify.org/astros.json')
 });
 
 
+
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("create-quote-form");
+  form.addEventListener("submit", createQuote);
+});
+
+function createQuote(event) {
+  event.preventDefault();
+  const ulItem = document.getElementById("quotes");
+  const formInput = document.getElementById("new-quote-description");
+  let newQuote = formInput.value;
+  const insertElement = document.createElement('li');
+  insertElement.innerText = newQuote;
+    
+  ulItem.appendChild(insertElement);
+    
+  
+};

@@ -91016,3 +91016,581 @@ Processing by VideosController#index as HTML
 Completed 200 OK in 16ms (Views: 2.9ms | ActiveRecord: 7.5ms)
 
 
+Started GET "/images" for ::1 at 2021-04-14 18:50:59 -0400
+Started GET "/videos" for ::1 at 2021-04-14 18:50:59 -0400
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/heather/.rvm/gems/ruby-2.6.1/gems/activerecord-5.2.5/lib/active_record/log_subscriber.rb:98
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (0.6ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+  [1m[36mImage Load (0.7ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 29ms (Views: 5.9ms | ActiveRecord: 11.9ms)
+
+
+Completed 200 OK in 30ms (Views: 13.7ms | ActiveRecord: 4.2ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 18:52:55 -0400
+Started GET "/videos" for ::1 at 2021-04-14 18:52:55 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+  [1m[36mVideo Load (1.6ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:02:17 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:02:17 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+  [1m[36mVideo Load (0.6ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.6ms)
+
+
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:03:06 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:03:06 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (2.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 2.3ms)
+
+
+  [1m[36mVideo Load (2.1ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:03:33 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:03:33 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mVideo Load (1.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  [1m[36mImage Load (3.9ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/videos_controller.rb:12
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 1.4ms)
+
+
+Completed 200 OK in 8ms (Views: 0.5ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:03:53 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:03:53 -0400
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (5.4ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+Processing by VideosController#index as */*
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 9ms (Views: 0.5ms | ActiveRecord: 5.4ms)
+
+
+  [1m[36mVideo Load (1.7ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:05:38 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:05:38 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (2.1ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  [1m[36mImage Load (0.7ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/videos_controller.rb:12
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 5ms (Views: 0.9ms | ActiveRecord: 2.1ms)
+
+
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:06:39 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:06:39 -0400
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (4.2ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 4.2ms)
+
+
+Processing by VideosController#index as */*
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:07:06 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:07:06 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (0.6ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.7ms | ActiveRecord: 0.6ms)
+
+
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 7ms (Views: 1.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:07:20 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:07:20 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (0.9ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+  [1m[36mVideo Load (1.7ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 7ms (Views: 0.6ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:07:44 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:07:44 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (1.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 1.6ms)
+
+
+  [1m[36mVideo Load (6.7ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 9ms (Views: 0.4ms | ActiveRecord: 6.7ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:08:03 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:08:03 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (1.4ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 7ms (Views: 2.7ms | ActiveRecord: 1.4ms)
+
+
+  [1m[36mVideo Load (11.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 13ms (Views: 0.6ms | ActiveRecord: 11.4ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:09:50 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:09:50 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (3.1ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 3.1ms)
+
+
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 6ms (Views: 0.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:12:15 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:12:15 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (1.2ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 1.2ms)
+
+
+  [1m[36mImage Load (2.4ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:12:29 -0400
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/videos" for ::1 at 2021-04-14 19:12:29 -0400
+Processing by VideosController#index as */*
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:15:16 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:15:16 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (0.7ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+  [1m[36mVideo Load (1.9ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 19:15:26 -0400
+Started GET "/videos" for ::1 at 2021-04-14 19:15:26 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (2.0ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mVideo Load (2.1ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/images_controller.rb:12
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.0ms)
+
+
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:27:45 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:27:45 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (0.9ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 38ms (Views: 0.3ms | ActiveRecord: 0.9ms)
+
+
+  [1m[36mImage Load (37.2ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 39ms (Views: 0.4ms | ActiveRecord: 37.2ms)
+
+
+Started GET "/videos" for ::1 at 2021-04-14 21:28:33 -0400
+Processing by VideosController#index as */*
+  [1m[36mVideo Load (0.8ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/videos" for ::1 at 2021-04-14 21:28:54 -0400
+Started GET "/images" for ::1 at 2021-04-14 21:28:54 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (0.5ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.5ms)
+
+
+  [1m[36mImage Load (2.1ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/videos" for ::1 at 2021-04-14 21:29:10 -0400
+Processing by VideosController#index as */*
+  [1m[36mVideo Load (0.8ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/videos" for ::1 at 2021-04-14 21:29:26 -0400
+Processing by VideosController#index as */*
+Started GET "/images" for ::1 at 2021-04-14 21:29:26 -0400
+  [1m[36mVideo Load (1.0ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Processing by ImagesController#index as */*
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 1.0ms)
+
+
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:29:40 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:29:40 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (1.0ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+  [1m[36mVideo Load (1.1ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 1.0ms)
+
+
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/videos" for ::1 at 2021-04-14 21:46:38 -0400
+Started GET "/images" for ::1 at 2021-04-14 21:46:38 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (0.7ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+  [1m[36mImage Load (1.1ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+Completed 200 OK in 12ms (Views: 3.6ms | ActiveRecord: 0.7ms)
+
+
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 10ms (Views: 0.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:46:39 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:46:39 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (1.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mVideo Load (0.2ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/images_controller.rb:12
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 1.3ms)
+
+
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:46:52 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:46:52 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (1.1ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mVideo Load (0.7ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.7ms)
+
+
+Completed 200 OK in 10ms (Views: 0.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:46:53 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:46:53 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/images_controller.rb:12
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.6ms)
+
+
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:46:53 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:46:53 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.5ms)
+
+
+  [1m[36mVideo Load (2.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:46:54 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:46:54 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (0.4ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/images_controller.rb:12
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.4ms)
+
+
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:46:54 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:46:54 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (0.7ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.4ms)
+
+
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:47:02 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:47:02 -0400
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (1.2ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.2ms)
+
+
+Processing by VideosController#index as */*
+  [1m[36mVideo Load (0.6ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.7ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:47:04 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:47:04 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (1.2ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.8ms | ActiveRecord: 1.2ms)
+
+
+  [1m[36mVideo Load (3.2ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:47:20 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:47:20 -0400
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.5ms | ActiveRecord: 0.5ms)
+
+
+Processing by VideosController#index as */*
+  [1m[36mVideo Load (1.2ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/videos" for ::1 at 2021-04-14 21:47:41 -0400
+Started GET "/images" for ::1 at 2021-04-14 21:47:41 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (0.5ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/videos_controller.rb:12
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.5ms)
+
+
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:47:58 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:47:58 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (1.0ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mVideo Load (0.4ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/images_controller.rb:12
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 0.4ms)
+
+
+Completed 200 OK in 4ms (Views: 0.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:48:12 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:48:12 -0400
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+Processing by VideosController#index as */*
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 5ms (Views: 0.8ms | ActiveRecord: 0.6ms)
+
+
+  [1m[36mVideo Load (1.8ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 5ms (Views: 0.7ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:48:35 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:48:35 -0400
+Processing by ImagesController#index as */*
+  [1m[36mImage Load (0.3ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Processing by VideosController#index as */*
+  [1m[36mVideo Load (2.1ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:48:49 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:48:49 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (0.7ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.7ms)
+
+
+  [1m[36mImage Load (2.4ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:49:05 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:49:05 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/images_controller.rb:12
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.6ms)
+
+
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:49:23 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:49:23 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (3.9ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 6ms (Views: 0.6ms | ActiveRecord: 3.9ms)
+
+
+  [1m[36mImage Load (2.5ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 6ms (Views: 0.8ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:49:39 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:49:39 -0400
+Processing by ImagesController#index as */*
+Processing by VideosController#index as */*
+  [1m[36mImage Load (0.6ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+  [1m[36mVideo Load (0.3ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/images_controller.rb:12
+  ↳ app/controllers/videos_controller.rb:12
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.6ms)
+
+
+Completed 200 OK in 3ms (Views: 0.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/images" for ::1 at 2021-04-14 21:50:49 -0400
+Started GET "/videos" for ::1 at 2021-04-14 21:50:49 -0400
+Processing by VideosController#index as */*
+Processing by ImagesController#index as */*
+  [1m[36mVideo Load (0.7ms)[0m  [1m[34mSELECT "videos".* FROM "videos"[0m
+  ↳ app/controllers/videos_controller.rb:12
+  [1m[36mImage Load (0.5ms)[0m  [1m[34mSELECT "images".* FROM "images"[0m
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.7ms)
+
+
+  ↳ app/controllers/images_controller.rb:12
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.5ms)
+
+
