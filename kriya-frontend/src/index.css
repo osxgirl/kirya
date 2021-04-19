@@ -15,5 +15,10 @@ p {
     color: white;
     list-style-type: none;
     text-align: center;
+}
+
+a {
     
+    text-decoration: none;
+    color: #A548FF ;
 }

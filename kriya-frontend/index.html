@@ -10,26 +10,105 @@
     body {
       font-family: 'Raleway', sans-serif;
     }
+    
+    
+
+    /* The Modal (background) */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      padding-top: 100px; /* Location of the box */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(192,192,192,0.3); /* Fallback color */
+      background-color: rgba(192,192,192,0.3); /* Black w/ opacity */
+    }
+
+    /* Modal Content */
+    .modal-content {
+      background-color: 000000;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+
+    /* The Close Button */
+    .close {
+      color: #ffffff;
+      float: left;
+      font-size: 44px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: #ffffff;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    
+    
+    
     </style>
   </head>
+  
+  
+  
+  
   <body>
+     
    <img src="images/Kriya_Yoga_logo.png" alt="Kriya Yoga">
-   <img src="images/images_icon.png" alt="Kriya Yoga Images">
-   <img src="images/videos_icon.png" alt="Kriya Yoga Videos">
-<br>
-<br>
        
-    <div id="main-content">
-      <form id="create-quote-form" action="#" method="post">
-        <label for="new-quote-description">Your Message:</label>
-        <input type="text" id="new-quote-description" name="new-quote-description" placeholder="hello">
-        <input type="submit" value="+">
-      </form>
-<br>
-<br>
+   <div id="main-content">
+             <form id="create-quote-form" action="#" method="post">
+               <label for="new-quote-description">Your Message:</label>
+               <input type="text" id="new-quote-description" name="new-quote-description" placeholder="hello">
+               <input type="submit" value="+">
+             </form>
+   <br>
+   <br>
       <div id="list">
-        <ul id="quotes">
-        </ul>
+              <ul id="quotes">
+              </ul>
       </div>
-    </div>
- 
+   </div>
+   <img src="images/images_icon.png" alt="Kriya Yoga Images">
+  
+   <div id="myBtn"><img src="images/videos_icon.png" alt="Kriya Yoga Videos"></div>
+       
+       <div id="myModal" class="modal">
+           <div class="close">&times;</span>
+               <p><a href="https://www.youtube.com/watch?v=fNWj6vEnq0M" target="_blank">Essence of Kriya</a></p>
+               <p><a href="https://www.youtube.com/watch?v=QdzXTBHLVzM" target="_blank">"How to Pray Effectively"</a></p>
+               <p><a href="https://www.youtube.com/watch?v=-KlnttF6jB8" target="_blank">The Proof of Kriya Yoga is the Joy You Feel</a></p>
+               <p><a href="https://www.youtube.com/watch?v=Wo4Kird8ryg" target="_blank">Kriya Yoga - 03/31/2017</a></p>
+               <p><a href="https://www.youtube.com/watch?v=u3QMlLg0wA8" target="_blank">Kriya Yoga - Gateway to Self-Realization</a></p>
+           </div>
+      
+      
+      
+      <script>
+          var modal = document.getElementById("myModal");
+          var btn = document.getElementById("myBtn");
+          var span = document.getElementsByClassName("close")[0];
+          btn.onclick = function() {
+              modal.style.display = "block";
+          }
+          span.onclick = function() {
+          modal.style.display = "none";
+          }
+          window.onclick = function(event) {
+            if (event.target == modal) {
+               modal.style.display = "none";
+            }
+          }
+       </script>
+      
+  
+</body>
+  </html>
