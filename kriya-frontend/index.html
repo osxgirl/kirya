@@ -6,6 +6,7 @@
      <script type="application/javascript" src="src/index.js" charset="UTF-8"></script>
      <link href="src/index.css" rel="stylesheet" type="text/css">
      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap" rel="stylesheet">
+    
     <style>
     body {
       font-family: 'Raleway', sans-serif;
@@ -18,14 +19,14 @@
       display: none; /* Hidden by default */
       position: fixed; /* Stay in place */
       z-index: 1; /* Sit on top */
-      padding-top: 100px; /* Location of the box */
+      padding-top: 30px;
+      padding-left: 40px;/* Location of the box */
       left: 0;
       top: 0;
       width: 100%; /* Full width */
       height: 100%; /* Full height */
       overflow: auto; /* Enable scroll if needed */
-      background-color: rgb(192,192,192,0.3); /* Fallback color */
-      background-color: rgba(192,192,192,0.3); /* Black w/ opacity */
+      background-color: #FFD6DA;
     }
 
     /* Modal Content */
@@ -52,8 +53,6 @@
       cursor: pointer;
     }
     
-    
-    
     </style>
   </head>
   
@@ -66,23 +65,23 @@
        
    <div id="main-content">
              <form id="create-quote-form" action="#" method="post">
-               <label for="new-quote-description">Your Message:</label>
+               <label for="new-quote-description"><p2>Post:</p2></label>
                <input type="text" id="new-quote-description" name="new-quote-description" placeholder="hello">
                <input type="submit" value="+">
              </form>
-   <br>
-   <br>
       <div id="list">
               <ul id="quotes">
               </ul>
       </div>
    </div>
+   
    <img src="images/images_icon.png" alt="Kriya Yoga Images">
   
    <div id="myBtn"><img src="images/videos_icon.png" alt="Kriya Yoga Videos"></div>
        
        <div id="myModal" class="modal">
            <div class="close">&times;</span>
+               <p>Videos</p>
                <p><a href="https://www.youtube.com/watch?v=fNWj6vEnq0M" target="_blank">Essence of Kriya</a></p>
                <p><a href="https://www.youtube.com/watch?v=QdzXTBHLVzM" target="_blank">"How to Pray Effectively"</a></p>
                <p><a href="https://www.youtube.com/watch?v=-KlnttF6jB8" target="_blank">The Proof of Kriya Yoga is the Joy You Feel</a></p>
