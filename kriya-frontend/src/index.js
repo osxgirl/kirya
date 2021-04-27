@@ -58,26 +58,43 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
         var p2 = document.createElement('p2');
-        p2.innerHTML="<img src=\"images/Babaji.jpg\">";
+        p2.innerHTML="<img src=\"images/Babaji.png\">";
         document.body.appendChild(p2);
         
         var p2 = document.createElement('p2');
-        p2.innerHTML="<img src=\"images/Lahiri+original+photo.jpg\">";
+        p2.innerHTML="<img src=\"images/Lahiri+original+photo.png\">";
         document.body.appendChild(p2);
     
         var p2 = document.createElement('p2');
-        p2.innerHTML="<img src=\"images/Jesus+Heather+small.jpg\">";
+        p2.innerHTML="<img src=\"images/Jesus+Heather+small.png\">";
         document.body.appendChild(p2);
     
         var p2 = document.createElement('p2');
-        p2.innerHTML="<img src=\"images/Yukteswar+Heather.jpg\">";
+        p2.innerHTML="<img src=\"images/Yukteswar+Heather.png\">";
         document.body.appendChild(p2);
     
         var p2 = document.createElement('p2');
-        p2.innerHTML="<img src=\"images/Yogananda+Ananda+Temple.jpg\">";
+        p2.innerHTML="<img src=\"images/Yogananda+Ananda+Temple.png\">";
         document.body.appendChild(p2);
 
 });
+
+
+
+
+
+
+
+    
+fetch(`${BACKEND_URL}/videos`)
+.then(function(response) {
+  console.log(response);
+  return response.json();
+})
+.then(function(json) {
+  console.log(json);
+});
+
 
 
 
