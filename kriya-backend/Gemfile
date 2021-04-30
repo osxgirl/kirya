@@ -3,6 +3,8 @@ git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.6.1'
 
+gem 'sassc-rails'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.4', '>= 5.2.4.5'
 
@@ -23,6 +25,8 @@ gem 'puma', '~> 3.11'
  gem "omniauth", "~> 1.9.1"
  gem 'fast_jsonapi'
  gem 'omniauth-facebook'
+ gem 'coffee-rails'
+ gem 'turbolinks'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
