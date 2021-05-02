@@ -17,7 +17,7 @@
       position: fixed; /* Stay in place */
       z-index: 1; /* Sit on top */
       padding-top: 30px;
-      padding-left: 40px;/* Location of the box */
+      padding-left: 50px;/* Location of the box */
       left: 0;
       top: 0;
       width: 100%; /* Full width */
@@ -55,6 +55,7 @@
   <body>
    <img src="images/Kriya_Yoga_logo.png" alt="Kriya Yoga">
     <p><span class="like-glyph">&#x2661;</span></p>
+    
    <div id="main-content">
              <form id="create-quote-form" action="#" method="post">
                <label for="new-quote-description"><p2>Post:</p2></label>
@@ -68,7 +69,7 @@
    </div>
    
    
-   <img src="images/images_icon.png" alt="Kriya Yoga Images">
+   <p><a href="https://ctt.ac/dhx1p" target="_blank"> <img src="images/images_icon.png" alt="Kriya Yoga Images"></a></p>
   
   
    <div id="myBtn"><img src="images/videos_icon.png" alt="Kriya Yoga Videos"></div>
@@ -97,6 +98,15 @@
             }
           }
     </script>
+      <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+      </fb:login-button>
+
+      <div id="status">
+      </div>
+
+      <!-- Load the JS SDK asynchronously -->
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
   </body>
    <script type="application/javascript" src="src/index.js" charset="UTF-8"></script>
 </html>
