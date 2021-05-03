@@ -56,17 +56,6 @@
    <img src="images/Kriya_Yoga_logo.png" alt="Kriya Yoga">
     <p><span class="like-glyph">&#x2661;</span></p>
     
-   <div id="main-content">
-             <form id="create-quote-form" action="#" method="post">
-               <label for="new-quote-description"><p2>Post:</p2></label>
-               <input type="text" id="new-quote-description" name="new-quote-description" placeholder="hello">
-               <input type="submit" value="+">
-             </form>
-      <div id="list">
-              <ul id="quotes">
-              </ul>
-      </div>
-   </div>
    
    
    <p><a href="https://ctt.ac/dhx1p" target="_blank"> <img src="images/images_icon.png" alt="Kriya Yoga Images"></a></p>
@@ -82,6 +71,8 @@
                <p><a href="https://www.youtube.com/watch?v=Wo4Kird8ryg" target="_blank">Kriya Yoga - 03/31/2017</a></p>
                <p><a href="https://www.youtube.com/watch?v=u3QMlLg0wA8" target="_blank">Kriya Yoga - Gateway to Self-Realization</a></p>
            </div>
+        </div>
+    </div>
       <script>
           var modal = document.getElementById("myModal");
           var btn = document.getElementById("myBtn");
@@ -98,14 +89,28 @@
             }
           }
     </script>
-      <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+
+    <div id="post">
+        <p>
+        <div id="main-content">
+                  <form id="create-quote-form" action="#" method="post">
+                    <label for="new-quote-description"><p2>Post:</p2></label>
+                    <input type="text" id="new-quote-description" name="new-quote-description" placeholder="hello">
+                    <input type="submit" value="+">
+                  </form>
+           <div id="list">
+                   <ul id="quotes">
+                   </ul>
+           </div>
+        </div>
+    </div>
+ 
+ 
+ <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
       </fb:login-button>
 
-      <div id="status">
-      </div>
-
-      <!-- Load the JS SDK asynchronously -->
-      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+     <div id="status">
+ <src="https://connect.facebook.net/en_US/sdk.js"></script>
 
   </body>
    <script type="application/javascript" src="src/index.js" charset="UTF-8"></script>

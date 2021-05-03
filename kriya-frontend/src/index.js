@@ -17,13 +17,13 @@ function likeCallback(e) {
   mimicServerCall()
     .then(function(serverMessage){
   
-      alert("You notified the server!");
+      alert("Love you too! ❤️🧡💛💚💙💜");
       alert(serverMessage);
       heart.innerText = glyphStates[heart.innerText];
       heart.style.color = colorStates[heart.style.color];
     })
     .catch(function(error) {
-      alert("Something went wrong!");
+      alert("whoops 🙈 Something went wrong!");
     });
 }
 
