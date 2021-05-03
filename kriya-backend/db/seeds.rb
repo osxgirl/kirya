@@ -9,11 +9,10 @@
 user = User.create([{name: 'heather', email: 'osxgirl@mac.com' }])
 user = User.create([{name: 'petal', email: 'heather@petalsnap.com' }])
 
-videos = Video.create([{ name: 'Kriya', url: 'https://www.youtube.com/watch?v=fNWj6vEnq0M' }])
-videos = Video.create([{ name: 'Kriya 2', url: 'https://www.youtube.com/watch?v=QdzXTBHLVzM' }])
-videos = Video.create([{ name: 'Kriya 3', url: 'https://www.youtube.com/watch?v=-KlnttF6jB8' }])
-videos = Video.create([{ name: 'Kriya 4', url: 'https://www.youtube.com/watch?v=Wo4Kird8ryg' }])
-videos = Video.create([{ name: 'Kriya 5', url: 'https://www.youtube.com/watch?v=u3QMlLg0wA8' }])
+videos = Video.create([{ name: 'Kriya 1', url: 'https://www.youtube.com/watch?v=QdzXTBHLVzM' }])
+videos = Video.create([{ name: 'Kriya 2', url: 'https://www.youtube.com/watch?v=-KlnttF6jB8' }])
+videos = Video.create([{ name: 'Kriya 3', url: 'https://www.youtube.com/watch?v=Wo4Kird8ryg' }])
+videos = Video.create([{ name: 'Kriya 4', url: 'https://www.youtube.com/watch?v=u3QMlLg0wA8' }])
 
 images = Image.create([{ name: 'Babaji', url: 'https://ibb.co/Q7BjDVc' }])
 images = Image.create([{ name: 'Lahiri', url: 'https://ibb.co/Ph24h1q' }])

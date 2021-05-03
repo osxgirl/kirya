@@ -3,6 +3,7 @@ class Users < ActiveRecord::Migration[5.2]
       create_table :users do |t|
              t.string :name
              t.string :email
+             t.string :reset_password_token
       end
   end
 end
