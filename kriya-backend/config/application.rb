@@ -43,6 +43,5 @@ module KriyaBackend
     # Skip views, helpers and assets when generating a new resource.
     config.api_only = false
 
-    config.force_ssl = true
   end
 end
