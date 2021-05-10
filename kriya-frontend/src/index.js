@@ -1,57 +1,3 @@
-const BACKEND_URL = 'http://localhost:3000';
-
-fetch(`${BACKEND_URL}/index`)
-.then(response => response.json())
-.then(parsedResponse =>
-console.log(parsedResponse));
-
-function fetchImages() {
-  return fetch(`${BACKEND_URL}/index`)
-    .then(response => response.json())
-};
-
-document.addEventListener('DOMContentLoaded', () => {
-  fetchImages()
-    .then(results => console.log(results));
-    
-    var p = document.createElement('p');
-    p.innerHTML = 'Babaji • Lahiri • Jesus • Yukteswar • Paramahansa';
-    document.body.appendChild(p);
-    
-
-        var p2 = document.createElement('p2');
-        p2.innerHTML="<img src=\"images/Babaji.png\">";
-        document.body.appendChild(p2);
-        
-        var p2 = document.createElement('p2');
-        p2.innerHTML="<img src=\"images/Lahiri+original+photo.png\">";
-        document.body.appendChild(p2);
-    
-        var p2 = document.createElement('p2');
-        p2.innerHTML="<img src=\"images/Jesus+Heather+small.png\">";
-        document.body.appendChild(p2);
-    
-        var p2 = document.createElement('p2');
-        p2.innerHTML="<img src=\"images/Yukteswar+Heather.png\">";
-        document.body.appendChild(p2);
-    
-        var p2 = document.createElement('p2');
-        p2.innerHTML="<img src=\"images/Yogananda+Ananda+Temple.png\">";
-        document.body.appendChild(p2);
-
-});
-
-
-
-fetch('http://api.open-notify.org/astros.json')
-.then(function(response) {
-  return response.json();
-}).then(function(json) {
-  console.log(json);
-  console.log(`Holy cow! There are ${json["number"]} humans in space.`);
-});
-
-
 function createQuote(event) {
   event.preventDefault();
   const ulItem = document.getElementById("quotes");
@@ -65,35 +11,71 @@ function createQuote(event) {
   
 };
 
+
+fetch('http://api.open-notify.org/astros.json')
+.then(function(response) {
+  return response.json();
+}).then(function(json) {
+  console.log(json);
+  console.log(`Holy cow! There are ${json["number"]} humans in space.`);
+});
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("create-quote-form");
   form.addEventListener("submit", createQuote);
 });
 
-function fetchVideos() {
-  return fetch(`${BACKEND_URL}/index`)
+const BACKEND_URL = 'http://localhost:3000';
+
+fetch(`${BACKEND_URL}/images`)
+.then(response => response.json())
+.then(parsedResponse =>
+console.log(parsedResponse));
+
+function fetchImages() {
+  return fetch(`${BACKEND_URL}/images`)
     .then(response => response.json())
 };
+document.addEventListener('DOMContentLoaded', () => {
+  fetchImages()
+    .then(results => console.log(results));
+    
+//    var p = document.createElement('p');
+//    p.innerHTML = 'Babaji • Lahiri • Jesus • Yukteswar • Paramahansa';
+//    document.body.appendChild(p);
+    
+//
+//        var p2 = document.createElement('p2');
+//        p2.innerHTML="<img src=\"images/Babaji.png\">";
+//        document.body.appendChild(p2);
+//
+//        var p2 = document.createElement('p2');
+//        p2.innerHTML="<img src=\"images/Lahiri+original+photo.png\">";
+//        document.body.appendChild(p2);
+//
+//        var p2 = document.createElement('p2');
+//        p2.innerHTML="<img src=\"images/Jesus+Heather+small.png\">";
+//        document.body.appendChild(p2);
+//
+//        var p2 = document.createElement('p2');
+//        p2.innerHTML="<img src=\"images/Yukteswar+Heather.png\">";
+//        document.body.appendChild(p2);
+//
+//        var p2 = document.createElement('p2');
+//        p2.innerHTML="<img src=\"images/Yogananda+Ananda+Temple.png\">";
+//        document.body.appendChild(p2);
 
-
-fetch(`${BACKEND_URL}/index`)
-.then(function(response) {
-  console.log(response);
-  return response.json();
-})
-.then(function(json) {
-  console.log(json);
 });
 
-//function fetchVideos() {
-//  return fetch(`${BACKEND_URL}/videos`)
-//    .then(response => response.json())
-//};
-//document.addEventListener('DOMContentLoaded', () => {
-//  fetchVideos()
-//    .then(results => console.log(results));
-//
-//});
+
+function fetchVideos() {
+  return fetch(`${BACKEND_URL}/videos`)
+    .then(response => response.json())
+};
+document.addEventListener('DOMContentLoaded', () => {
+  fetchVideos()
+    .then(results => console.log(results));
+
+});
 
 
 let glyphStates = {
