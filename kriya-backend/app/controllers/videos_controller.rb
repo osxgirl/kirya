@@ -8,26 +8,29 @@
     #
         
       def index
-        @video = Video.all
-        render json: @video.to_json(only: [:url])
+          videos = Video.all
+          
+          render json: VideoSerializer.new(videos)
       end
       
       def create
-        video = Video.create(
-          video: Video.find(params[:video_id])
-        )
-        render json: videos
+          video = Video.new(video_params)
+          if video.save
+             render json: VideoSerializer.new(video)
+          else
+          render json: {error: "couls not save"}
+          end
       end
       
        def show
-         @video = Video.find(params[:id])
-         render json: @video.to_json(only: [:url])
+           video = Video.find(params[:id])
+           render json: video.to_json
        end
       
       private
       
       def video_params
-            params.require(:video).permit(:url)
+            params.require(:video).permit(:name, :url)
       end
 
     end
