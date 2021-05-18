@@ -20,7 +20,7 @@ class Video{
         this.element.innerHTML = `
         <div data-id="${this.id}">
         <strong class="name">${this.name}</strong>:
-            $<span class="url">${this.url}</span>
+            <span class="url">${this.url}</span>
         </div>
         `
         return this.element
