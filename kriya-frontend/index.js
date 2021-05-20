@@ -1,8 +1,10 @@
 const port = 'http://localhost:3000'
 const videoApi = new VideoApi(port)
+const imageApi = new ImageApi(port)
 const list = document.getElementById('video-list')
-
+const ilist = document.getElementById('image-list')
 videoApi.getVideos()
+imageApi.getImages()
 
 
 function createQuote(event) {
@@ -30,21 +32,11 @@ document.addEventListener("DOMContentLoaded", () => {
   form.addEventListener("submit", createQuote);
 });
 
-
-function getImages(){
-    fetch(`http://localhost:3000/images`)
-        .then(r => r.json())
-        .then(renderImages)
-    }
-//
 function fetchImages() {
   return fetch(`http://localhost:3000/images`)
     .then(response => response.json())
 };
-document.addEventListener('DOMContentLoaded', () => {
-  fetchImages()
-    .then(results => console.log(results));
-    
+
     var p = document.createElement('p');
     p.innerHTML = 'Babaji • Lahiri • Jesus • Yukteswar • Paramahansa';
     document.body.appendChild(p);
@@ -70,20 +62,6 @@ document.addEventListener('DOMContentLoaded', () => {
         p2.innerHTML="<img src=\"images/Yogananda+Ananda+Temple.png\">";
         document.body.appendChild(p2);
 
-});
-
-
-function fetchVideos() {
-  return fetch(`http://localhost:3000/videos`)
-    .then(response => response.json())
-};
-document.addEventListener('DOMContentLoaded', () => {
-  fetchVideos()
-    .then(results => console.log(results));
-
-});
-
-
 
 function renderVideos(arg){
     const videos = arg["data"]
@@ -92,6 +70,17 @@ function renderVideos(arg){
         renderVideo(element)
     })
 }
+
+function renderImages(arg){
+    const images = arg["data"]
+    images.forEach(element => {
+        new Image(element)
+        renderImage(element)
+    })
+}
+
+
+
 let glyphStates = {
   "♡": "♥",
   "♥": "♡"

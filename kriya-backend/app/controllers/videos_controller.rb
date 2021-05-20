@@ -18,7 +18,7 @@
           if video.save
              render json: VideoSerializer.new(video)
           else
-          render json: {error: "couls not save"}
+          render json: {error: "could not save"}
           end
       end
       

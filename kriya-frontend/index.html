@@ -10,6 +10,18 @@
     body {
       font-family: 'Raleway', sans-serif;
     }
+    
+    ul {
+        color: white;
+    }
+    
+    h3 {
+        color: grey;
+    }
+    
+    label {
+        color: grey;
+    }
 
     /* The Modal (background) */
     .modal {
@@ -39,7 +51,7 @@
     .close {
       color: #ffffff;
       float: left;
-      font-size: 34px;
+      font-size: 18px;
       font-weight: bold;
     }
 
@@ -60,8 +72,6 @@
     
    <p><a href="https://ctt.ac/dhx1p" target="_blank"> <img src="images/images_icon.png" alt="Kriya Yoga Images"></a></p>
   
-  
-   
   
    <div id="myBtn"><img src="images/videos_icon.png" alt="Kriya Yoga Videos"></div>
        <div id="myModal" class="modal">
@@ -89,9 +99,10 @@
             }
           }
     </script>
+      
+      
 
     <div id="post">
-        <p>
         <div id="main-content">
                   <form id="create-quote-form" action="#" method="post">
                     <label for="new-quote-description"><p2>Post:</p2></label>
@@ -104,22 +115,33 @@
            </div>
         </div>
     </div>
- 
- 
- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-      </fb:login-button>
-
-     <div id="status">
- <src="https://connect.facebook.net/en_US/sdk.js"></script>
-
+    
+    
+    
+    <div class="images-container"></div>
+        <ul id="image-list"></ul>
+    
+    
+        <h3>Add an Image:</h3>
+        <form id="item-form">
+            <label for="image-name">master:</label>
+            <input type="text" name="name" id="image-name"><br><br>
+            <label for="image-url">url:</label>
+            <input type="text" name="url" id="image-url"><br><br>
+            </select><br><br>
+            <input type="submit" value="Create">
+        </form>
+    </div>
+    
+    
+    
+    
   </body>
-  
-  
-  
+  <script type="application/javascript" src="src/image.js" charset="UTF-8"></script>
   <script type="application/javascript" src="src/video.js" charset="UTF-8"></script>
+
   <script type="application/javascript" src="src/videoApi.js" charset="UTF-8"></script>
   <script type="application/javascript" src="src/imageApi.js" charset="UTF-8"></script>
-  <script type="application/javascript" src="src/image.js" charset="UTF-8"></script>
   
   <script type="application/javascript" src="index.js" charset="UTF-8"></script>
 </html>
