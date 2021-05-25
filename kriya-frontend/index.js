@@ -1,4 +1,6 @@
 const port = 'http://localhost:3000'
+const nameInput = document.getElementById('image-name')
+const urlInput = document.getElementById('imageurl')
 const videoApi = new VideoApi(port)
 const imageApi = new ImageApi(port)
 const list = document.getElementById('video-list')
