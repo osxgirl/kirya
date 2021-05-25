@@ -1,6 +1,6 @@
 class ImageSerializer
   include FastJsonapi::ObjectSerializer
-  attributes :name, :url
+  attributes :id, :name, :url
   
   def index
     images = Image.all

@@ -21,11 +21,10 @@
         const imageInfo = {
             image: {
                 name: nameInput.value,
-                url: urlInput.value,
+                url: urlInput.value
         }
       }
       console.log(imageInfo)
-        
       const configObj ={
         method: 'POST',
         headers: {
@@ -36,13 +35,13 @@
        }
   
       
-    fetch(this.BACKEND_URL, configOjb)
-        .then(r => r.json())
-        .then( json => {
-         const i = new Image({id: json.data.id, ...json.data.attributes})
-        i.attachToDom()
-        })
-    }
+      fetch(this.BACKEND_URL, configOjb)
+         .then(r => r.json())
+         .then( json => {
+             const i = new Image({id: json.data.id, ...json.data.attributes})
+            i.attachToDom()
+         })
+      }
     
     
     sendPatch = (image) => {

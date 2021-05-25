@@ -43,23 +43,23 @@ class Image{
         }
     }
 
-    deleteItem = (e) => {
+    deleteImage = (e) => {
         this.element.remove() // remove it before the fetch request
         imageApi.deleteImage(this.id)
     }
 
     saveUpdatedImage = () => {
-        this.url = this.element.querySelector(".edit-url").value
         this.name = this.element.querySelector(".edit-name").value
-    
+        this.url = this.element.querySelector(".edit-url").value
+        
        imageApi.sendPatch(this)
     }
     
     render(){
         this.element.innerHTML = `
-        <div data-id="${this.id}">
-        <strong class="name">${this.name}</strong>:
-            <span class="url">${this.url}</span>
+           <div data-id="${this.id}">
+           <strong class="name">${this.name}</strong>:
+           <span class="url">${this.url}</span>
         </div>
         
         <button class="edit" data-id="${this.id}">Edit</button>
@@ -73,6 +73,7 @@ class Image{
         this.render()
         Image.container.appendChild(this.element)
     }
+    
 }
 
 

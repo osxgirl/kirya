@@ -3,8 +3,18 @@ const videoApi = new VideoApi(port)
 const imageApi = new ImageApi(port)
 const list = document.getElementById('video-list')
 const ilist = document.getElementById('image-list')
+const form = document.getElementById('image-form')
+
 videoApi.getVideos()
 imageApi.getImages()
+
+
+function handleSubmit(e){
+   e.preventDefault()
+   imageApi.createImage()
+   e.target.reset()
+}
+
 
 
 function createQuote(event) {
@@ -79,6 +89,7 @@ function renderImages(arg){
     })
 }
 
+form.addEventListener('submit', handleSubmit)
 
 
 let glyphStates = {
