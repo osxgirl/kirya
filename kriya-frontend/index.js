@@ -1,14 +1,11 @@
 const port = 'http://localhost:3000'
 const nameInput = document.getElementById('image-name')
-const urlInput = document.getElementById('imageurl')
+const urlInput = document.getElementById('image-url')
 const videoApi = new VideoApi(port)
 const imageApi = new ImageApi(port)
 const list = document.getElementById('video-list')
 const ilist = document.getElementById('image-list')
 const form = document.getElementById('image-form')
-
-videoApi.getVideos()
-imageApi.getImages()
 
 
 function handleSubmit(e){
@@ -16,6 +13,10 @@ function handleSubmit(e){
    imageApi.createImage()
    e.target.reset()
 }
+
+
+videoApi.getVideos()
+imageApi.getImages()
 
 
 
@@ -74,6 +75,11 @@ function fetchImages() {
         p2.innerHTML="<img src=\"images/Yogananda+Ananda+Temple.png\">";
         document.body.appendChild(p2);
 
+form.addEventListener('submit', handleSubmit)
+
+
+
+
 
 function renderVideos(arg){
     const videos = arg["data"]
@@ -90,9 +96,6 @@ function renderImages(arg){
         renderImage(element)
     })
 }
-
-form.addEventListener('submit', handleSubmit)
-
 
 let glyphStates = {
   "♡": "♥",
@@ -133,4 +136,6 @@ function mimicServerCall() {
     }, 300);
   });
 }
+
+
 

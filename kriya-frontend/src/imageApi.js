@@ -25,7 +25,7 @@
         }
       }
       console.log(imageInfo)
-      const configObj ={
+      const configObj = {
         method: 'POST',
         headers: {
             "Content-Type": "application/json",
@@ -35,9 +35,9 @@
        }
   
       
-      fetch(this.BACKEND_URL, configOjb)
+      fetch(this.BACKEND_URL, configObj)
          .then(r => r.json())
-         .then( json => {
+         .then(json => {
              const i = new Image({id: json.data.id, ...json.data.attributes})
             i.attachToDom()
          })
@@ -63,7 +63,6 @@
          fetch(`${this.BACKEND_URL}/${image.id}`, configObj)
          .then(r => r.json())
          .then(json => {
-             // we are optomistically rendering here since we don't use the json response
              image.render()
          })
      }
