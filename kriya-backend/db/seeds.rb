@@ -20,5 +20,9 @@ images = Image.create([{ name: 'Lahiri', url: 'https://ibb.co/Ph24h1q'}])
 images = Image.create([{ name: 'Jesus', url: 'https://ibb.co/MZf5ZN8'}])
 images = Image.create([{ name: 'Yukteswar', url: 'https://ibb.co/8gcf0Ty'}])
 images = Image.create([{ name: 'Paramahansa', url: 'https://ibb.co/TbhcqXH'}])
-
-comment = Comment.create([{ comment: 'जी शुक्रिया ❤️'}])
+               
+comment = Comment.create([{ comment: 'जी शुक्रिया ❤️', image_id:1}])
+comment = Comment.create([{ comment: 'thank you ❤️', image_id:2}])
+comment = Comment.create([{ comment: 'gracias ❤️', image_id:3}])
+comment = Comment.create([{ comment: 'danke ❤️', image_id:4}])
+comment = Comment.create([{ comment: 'merci ❤️', image_id:5}])
