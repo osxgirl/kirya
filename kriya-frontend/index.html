@@ -10,6 +10,18 @@
     body {
       font-family: 'Raleway', sans-serif;
     }
+    
+    ul {
+        color: white;
+    }
+    
+    h3 {
+        color: white;
+    }
+    
+    label {
+        color: white;
+    }
 
     /* The Modal (background) */
     .modal {
@@ -39,7 +51,7 @@
     .close {
       color: #ffffff;
       float: left;
-      font-size: 44px;
+      font-size: 18px;
       font-weight: bold;
     }
 
@@ -53,11 +65,11 @@
     </style>
   </head>
   <body>
+   
    <img src="images/Kriya_Yoga_logo.png" alt="Kriya Yoga">
-    <p><span class="like-glyph">&#x2661;</span></p>
+   
+   <p><span class="like-glyph">&#x2661;</span></p>
     
-   
-   
    <p><a href="https://ctt.ac/dhx1p" target="_blank"> <img src="images/images_icon.png" alt="Kriya Yoga Images"></a></p>
   
   
@@ -65,10 +77,9 @@
        <div id="myModal" class="modal">
            <div class="close">&times;</span>
                <p>Videos</p>
-               <p><a href="https://www.youtube.com/watch?v=QdzXTBHLVzM" target="_blank">"How to Pray Effectively"</a></p>
-               <p><a href="https://www.youtube.com/watch?v=-KlnttF6jB8" target="_blank">The Proof of Kriya Yoga is the Joy You Feel</a></p>
-               <p><a href="https://www.youtube.com/watch?v=Wo4Kird8ryg" target="_blank">Kriya Yoga - 03/31/2017</a></p>
-               <p><a href="https://www.youtube.com/watch?v=u3QMlLg0wA8" target="_blank">Kriya Yoga - Gateway to Self-Realization</a></p>
+               <div class="videos-container">
+                   <ul id="video-list"></ul>
+               </div>
            </div>
         </div>
     </div>
@@ -88,29 +99,56 @@
             }
           }
     </script>
-
+    
+    <div class="images-container"></div>
+        <ul id="image-list"></ul>
+        
+        <h3>Add an Image:</h3>
+        <form id="image-form">
+            
+            <label for="image-name">yogi:</label>
+            <input type="text" name="name" id="image-name"><br><br>
+                
+            <label for="image-url">link:</label>
+            <input type="text" name="url" id="image-url"><br><br>
+                
+            <label for="com-post">comment</label>
+            <input type="text" name="comment" id="com-post"><br><br>
+                
+            </select>
+            <input type="submit" value="Create">
+        </form>
+    
+    <div id="com-container"></div>
+    
+    <br>
+    <br>
+    <br>
+    
     <div id="post">
-        <p>
-        <div id="main-content">
-                  <form id="create-quote-form" action="#" method="post">
-                    <label for="new-quote-description"><p2>Post:</p2></label>
-                    <input type="text" id="new-quote-description" name="new-quote-description" placeholder="hello">
-                    <input type="submit" value="+">
-                  </form>
-           <div id="list">
-                   <ul id="quotes">
-                   </ul>
+           <div id="main-content">
+                     <form id="create-quote-form" action="#" method="post">
+                       <label for="new-quote-description"><p2>Hau  + E:</p2></label>
+                       <input type="text" id="new-quote-description" name="new-quote-description" placeholder="🌬">
+                       <input type="submit" value="+">
+                     </form>
+              <div id="list">
+                      <ul id="quotes">
+                      </ul>
+              </div>
            </div>
-        </div>
-    </div>
- 
- 
- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-      </fb:login-button>
-
-     <div id="status">
- <src="https://connect.facebook.net/en_US/sdk.js"></script>
-
-  </body>
-   <script type="application/javascript" src="src/index.js" charset="UTF-8"></script>
+       </div>
+    
+    <script type="application/javascript" src="src/image.js" charset="UTF-8"></script>
+    <script type="application/javascript" src="src/video.js" charset="UTF-8"></script>
+    <script type="application/javascript" src="src/imageApi.js" charset="UTF-8"></script>
+    <script type="application/javascript" src="src/videoApi.js" charset="UTF-8"></script>
+    <script type="application/javascript" src="src/commentApi.js" charset="UTF-8"></script>
+    
+    <script type="application/javascript" src="index.js" charset="UTF-8"></script>
+      
+    
+ </body>
+  
+  
 </html>

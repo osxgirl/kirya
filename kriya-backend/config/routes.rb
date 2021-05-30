@@ -3,6 +3,7 @@ Rails.application.routes.draw do
    root to: 'welcome#home'
    resources :images
    resources :videos
+   resources :comments
    
    get '/test', to: 'application#test'
    get '/index', to: 'images#index'
