@@ -21,4 +21,4 @@ images = Image.create([{ name: 'Jesus', url: 'https://ibb.co/MZf5ZN8'}])
 images = Image.create([{ name: 'Yukteswar', url: 'https://ibb.co/8gcf0Ty'}])
 images = Image.create([{ name: 'Paramahansa', url: 'https://ibb.co/TbhcqXH'}])
 
-comment = Comment.create([{ comment: 'जी शुक्रिया ❤️', images_id: 1 }])
+comment = Comment.create([{ comment: 'जी शुक्रिया ❤️'}])

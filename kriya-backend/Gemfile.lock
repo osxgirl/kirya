@@ -70,8 +70,14 @@ GEM
       railties (>= 4.1.0)
       responders
       warden (~> 1.2.3)
+    dirty_seed (0.2.1)
+      faker (~> 2.14.0)
+      rails (>= 5.0, < 7.0)
+      regexp-examples
     erubi (1.10.0)
     execjs (2.7.0)
+    faker (2.14.0)
+      i18n (>= 1.6, < 2)
     faraday (1.4.1)
       faraday-excon (~> 1.1)
       faraday-net_http (~> 1.0)
@@ -162,6 +168,7 @@ GEM
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    regexp-examples (1.5.1)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -210,6 +217,7 @@ DEPENDENCIES
   byebug
   coffee-rails
   devise
+  dirty_seed (~> 0.2.1)
   fast_jsonapi
   listen (>= 3.0.5, < 3.2)
   omniauth (~> 1.9.1)
