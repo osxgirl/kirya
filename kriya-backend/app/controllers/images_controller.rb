@@ -4,8 +4,8 @@ class ImagesController < ApplicationController
   
       def index
         images = Image.all
-            
-        render json: ImageSerializer.new(images)
+            options = {include: [:comments]}
+            render json: ImageSerializer.new(images, include: [:comments])
       end
         
       def show

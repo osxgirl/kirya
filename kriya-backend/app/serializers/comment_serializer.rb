@@ -1,4 +1,6 @@
-class CommentSerializer < ActiveModel::Serializer
+class CommentSerializer
+    include FastJsonapi::ObjectSerializer
+  belongs_to :image
+  
   attributes :comment
-  has_one :image
 end
