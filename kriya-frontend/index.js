@@ -1,4 +1,5 @@
 const port = 'http://localhost:3000'
+<<<<<<< HEAD:kriya-frontend/index.js
 const commentApi = new CommentApi(port)
 const videoApi = new VideoApi(port)
 const imageApi = new ImageApi(port)
@@ -15,6 +16,17 @@ videoApi.getVideos()
 imageApi.getImages()
 commentApi.getComments()
 
+=======
+const nameInput = document.getElementById('image-name')
+const urlInput = document.getElementById('image-url')
+const videoApi = new VideoApi(port)
+const imageApi = new ImageApi(port)
+const list = document.getElementById('video-list')
+const ilist = document.getElementById('image-list')
+const form = document.getElementById('image-form')
+
+
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb:kriya-frontend/src/index.js
 function handleSubmit(e){
    e.preventDefault()
    imageApi.createImage()
@@ -22,8 +34,13 @@ function handleSubmit(e){
 }
 
 
+<<<<<<< HEAD:kriya-frontend/index.js
 
 
+=======
+videoApi.getVideos()
+imageApi.getImages()
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb:kriya-frontend/src/index.js
 
 
 
@@ -37,6 +54,7 @@ function createQuote(event) {
     
   ulItem.appendChild(insertElement);
 };
+<<<<<<< HEAD:kriya-frontend/index.js
 
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -48,6 +66,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
+=======
+
+
+fetch('http://api.open-notify.org/astros.json')
+.then(function(response) {
+  return response.json();
+}).then(function(json) {
+  console.log(json);
+  console.log(`Holy cow! There are ${json["number"]} humans in space.`);
+});
+
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("create-quote-form");
+  form.addEventListener("submit", createQuote);
+});
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb:kriya-frontend/src/index.js
 
 function fetchImages() {
   return fetch(`http://localhost:3000/images`)
@@ -79,6 +113,7 @@ function fetchImages() {
         p2.innerHTML="<img src=\"images/Yogananda+Ananda+Temple.png\">";
         document.body.appendChild(p2);
 
+<<<<<<< HEAD:kriya-frontend/index.js
 
 
 
@@ -114,11 +149,34 @@ function renderImages(arg){
 
 
 
+=======
+form.addEventListener('submit', handleSubmit)
 
 
 
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb:kriya-frontend/src/index.js
 
 
+function renderVideos(arg){
+    const videos = arg["data"]
+    videos.forEach(element => {
+        new Video(element)
+        renderVideo(element)
+    })
+}
+
+<<<<<<< HEAD:kriya-frontend/index.js
+
+
+=======
+function renderImages(arg){
+    const images = arg["data"]
+    images.forEach(element => {
+        new Image(element)
+        renderImage(element)
+    })
+}
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb:kriya-frontend/src/index.js
 
 let glyphStates = {
   "♡": "♥",
@@ -162,6 +220,7 @@ function mimicServerCall() {
 
 
 
+<<<<<<< HEAD:kriya-frontend/index.js
 fetch('http://api.open-notify.org/astros.json')
 .then(function(response) {
   return response.json();
@@ -169,3 +228,5 @@ fetch('http://api.open-notify.org/astros.json')
   console.log(json);
   console.log(`Holy cow! There are ${json["number"]} humans in space.`);
 });
+=======
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb:kriya-frontend/src/index.js

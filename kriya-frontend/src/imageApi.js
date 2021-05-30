@@ -1,10 +1,19 @@
  class ImageApi {
+<<<<<<< HEAD
 
     constructor(port){
         this.BACKEND_URL = `${port}/images`
     }
 
 
+=======
+    
+    constructor(port){
+        this.BACKEND_URL = `${port}/images`
+    }
+    
+   
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb
     getImages(){
         fetch(this.BACKEND_URL)
         .then(r => r.json())
@@ -15,9 +24,15 @@
         })
       })
     }
+<<<<<<< HEAD
 
     createImage(){
 
+=======
+      
+    createImage(){
+        
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb
         const imageInfo = {
             image: {
                 name: nameInput.value,
@@ -33,8 +48,13 @@
         },
         body: JSON.stringify(imageInfo)
        }
+<<<<<<< HEAD
 
 
+=======
+  
+      
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb
       fetch(this.BACKEND_URL, configObj)
          .then(r => r.json())
          .then(json => {
@@ -42,8 +62,13 @@
             i.attachToDom()
          })
       }
+<<<<<<< HEAD
 
 
+=======
+    
+    
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb
     sendPatch = (image) => {
          let {name, url} = image
          const imageInfo = {
@@ -59,7 +84,11 @@
              },
              body: JSON.stringify(imageInfo)
          }
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb
          fetch(`${this.BACKEND_URL}/${image.id}`, configObj)
          .then(r => r.json())
          .then(json => {
@@ -75,9 +104,17 @@
                  Accept: "application/json"
              }
          }
+<<<<<<< HEAD
 
+=======
+         
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb
          fetch(`${this.BACKEND_URL}/${id}`, configObj)
              .then(r => r.json())
              .then(json => alert(json.message))
      }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> edf316689362adf83bf94784c01e96a862ce45eb

@@ -5,13 +5,8 @@ Rails.application.routes.draw do
    resources :videos
    resources :comments
    
-   get '/test', to: 'application#test'
-   get '/index', to: 'images#index'
-  
-   get '/show', to: 'images#show'
-   
    get 'images' => 'images#index'
-   get 'videos' => 'videos#index'
+   get '/videos' => 'videos#index'
  
    
 
