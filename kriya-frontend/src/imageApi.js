@@ -10,7 +10,14 @@
             json["data"].forEach(element => {
             const i = new Image({id: element.id, ...element.attributes})
                            i.attachToDom()
+                
         })
+            const i = this.el.image;
+
+            Array.prototype.forEach.call(image.comments, comment => {
+              console.log(comment)
+            });
+
       })
     }
 
@@ -30,6 +37,7 @@
         },
         body: JSON.stringify(imageInfo)
        }
+        
   fetch(this.BACKEND_URL, configObj)
          .then(r => r.json())
          .then(json => {

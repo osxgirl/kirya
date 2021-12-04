@@ -3,9 +3,10 @@ class Image{
     static all = []
     static container = document.getElementById('image-list')
 
-    constructor({id, name, url}){
+    constructor({id, name, url, comment}){
         this.name = name
         this.url = url
+        this.comment = comment
         this.id = id
         
         this.element = document.createElement('li')
@@ -60,6 +61,7 @@ class Image{
            <div data-id="${this.id}">
            <strong class="name">${this.name}</strong>:
            <span class="url">${this.url}</span>
+           <span class="comment">${this.comment}</span>
         </div>
         
         <button class="edit" data-id="${this.id}">Edit</button>

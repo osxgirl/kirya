@@ -10,7 +10,7 @@ class ImagesController < ApplicationController
         
       def show
         image = Image.find(params[:id])
-        render json: image.to_json
+        render json: image.to_json(:include => :comment)
       end
            
       def create
@@ -41,7 +41,8 @@ class ImagesController < ApplicationController
         private
 
       def image_params
-        params.require(:image).permit(:name, :url)
+          params.require(:image).permit(:name, :url, :comment)
       end
 
 end
+

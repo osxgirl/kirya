@@ -1,29 +1,27 @@
 const port = 'http://localhost:3000'
-const commentApi = new CommentApi(port)
+
 const videoApi = new VideoApi(port)
 const imageApi = new ImageApi(port)
+const commentApi = new CommentApi(port)
 
 const nameInput = document.getElementById('image-name')
-const urlInput = document.getElementById('image-url')
+const urlInput = document.getElementById('video-url')
 const comInput = document.getElementById('com-post')
+
 const ilist = document.getElementById('video-list')
 const list = document.getElementById('image-list')
-const form = document.getElementById('image-form')
-
-
-videoApi.getVideos()
-imageApi.getImages()
-commentApi.getComments()
+const iilist = document.getElementById('comment-list')
 
 function handleSubmit(e){
    e.preventDefault()
    imageApi.createImage()
+    commentApi.createComment()
    e.target.reset()
 }
 
-
-
-
+videoApi.getVideos()
+imageApi.getImages()
+commentApi.getComments()
 
 
 
@@ -43,8 +41,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("create-quote-form");
   form.addEventListener("submit", createQuote);
 });
-
-
 
 
 
@@ -80,12 +76,6 @@ function fetchImages() {
         document.body.appendChild(p2);
 
 
-
-
-
-
-
-form.addEventListener('submit', handleSubmit)
 
 function renderComments(arg){
     const comments = arg["data"]
