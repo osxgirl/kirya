@@ -1,0 +1,9 @@
+2021-12-05 14:15:00.951 EST [13771] LOG:  starting PostgreSQL 14.1 on x86_64-apple-darwin20.6.0, compiled by Apple clang version 13.0.0 (clang-1300.0.29.3), 64-bit
+2021-12-05 14:15:00.953 EST [13771] LOG:  listening on IPv6 address "::1", port 5432
+2021-12-05 14:15:00.953 EST [13771] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2021-12-05 14:15:00.954 EST [13771] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2021-12-05 14:15:00.958 EST [13772] LOG:  database system was shut down at 2021-12-05 14:14:37 EST
+2021-12-05 14:15:00.960 EST [13771] LOG:  database system is ready to accept connections
+2021-12-05 14:15:12.495 EST [13807] FATAL:  database "kriya-backend_development" does not exist
+2021-12-05 14:19:29.377 EST [13898] ERROR:  relation "users" does not exist
+2021-12-05 14:19:29.377 EST [13898] STATEMENT:  CREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")
